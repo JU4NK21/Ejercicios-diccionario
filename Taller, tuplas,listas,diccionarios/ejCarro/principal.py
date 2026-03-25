@@ -21,7 +21,7 @@ db.agregar(carro3)
 db.agregar(carro4)
 
 #Mostrar datos en las posicion 0
-print("\n===CONSULTANDO OBJETO EN POSICION 0===")
+
 objeto = db.consultar(0)
 objeto.ver_info()
 
